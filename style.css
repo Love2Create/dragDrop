@@ -1,0 +1,11 @@
+div {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
