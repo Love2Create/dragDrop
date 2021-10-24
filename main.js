@@ -35,6 +35,8 @@ for (var i=0; i<divs.length; i++){
         offsety = mousey - ely;
         console.log('y:', ely, mousey, offsety);
 
+        selectedEl.style.cursor = 'move';
+
         document.addEventListener('mousemove',moveEvent);
    });
 }
